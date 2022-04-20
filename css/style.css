@@ -12,7 +12,8 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-color: #ccc
+  background-color: #ccc;
+  transition: all 0.8s;
 }
 
 .container {
@@ -54,4 +55,27 @@ fieldset {
   border-radius: 5px;
   max-width: 50px;
   min-width: 30px;
+}
+
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  #content{
+    background-color: red;
+  }
+}
+
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  #content{
+    background-color: green;
+  }
+}
+
+/* celular */
+@media screen and (max-width: 767px) {
+ #content{
+   background-color: blue;
+ } 
 }
