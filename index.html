@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Função básica</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="content">
+    <div class="container">
+      <fieldset>
+        <legend>Exemplo de HTML e Javascript</legend>
+        <div  class="screen">
+          <p id="resultado"></p>
+        </div>
+        <table>
+          <tr class="fileira">
+            <td>
+              <button class="tecla" onclick="adicionar(1)">1</button>
+            </td>
+            <td>
+              <button class="tecla" onclick="adicionar(2)">2</button>
+            </td>
+            <td>
+              <button class="tecla" onclick="adicionar(3)">3</button>
+            </td>
+          </tr>
+          <tr class="fileira">
+            <td>
+              <button class="tecla" onclick="limpar()">C</button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Valores do storage</legend>
+        <div  class="screen">
+          <p id="storage"></p>
+        </div>
+
+        <button class="tecla" onclick="pegarValorDoStorage()">Pegar valor</button>
+      </fieldset>
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

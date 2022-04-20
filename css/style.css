@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ccc
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  height: 600px;
+}
+
+fieldset {
+  padding: 30px;
+}
+
+.screen{
+  width: 100%;
+  height: 80px;
+  background-color: 	#39464d;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen p{
+  font-size: 32px;
+}
+
+.fileira{
+  width: 100%;
+  margin: 0 10px 0 10px;
+}
+
+.tecla{
+  background-color: #26252a;
+  color: #fff;
+  padding: 12px 0 10px 0;
+  font-size: 22px;
+  border-radius: 5px;
+  max-width: 50px;
+  min-width: 30px;
+}
